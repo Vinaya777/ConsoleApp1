@@ -39,7 +39,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
     public float Pay(int qty, float price)
     {
         Console.WriteLine( "Do transaction using credit card");
-        return qty * price;
+        return qty *   price;
     }
 }
 
