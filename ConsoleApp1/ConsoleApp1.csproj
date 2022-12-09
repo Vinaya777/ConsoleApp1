@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.InheritanceAndPolymorphism.ElectronicShowroom</StartupObject>
+    <StartupObject>ConsoleApp1.DynamicAndExplicit.Shape.Rectangle</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,6 +66,7 @@
     <Compile Include="ConstructorAndMethod\Vehical.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="DynamicAndExplicit\Shape.cs" />
+    <Compile Include="DynamicAndExplicit\ShapeAccess.cs" />
     <Compile Include="DynamicAndExplicit\StackExample.cs" />
     <Compile Include="InheritanceAndPolymorphism\ApplicationPayroll.cs" />
     <Compile Include="InheritanceAndPolymorphism\DynamicPolymorphism.cs" />

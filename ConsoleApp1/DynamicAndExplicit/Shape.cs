@@ -18,7 +18,7 @@ namespace ConsoleApp1.DynamicAndExplicit
                 this.r = r;
             }
 
-            public override void CalculateArea()
+            public override void  CalculateArea()
             {
                 area = 3.14 * r * r;
             }
@@ -44,7 +44,17 @@ namespace ConsoleApp1.DynamicAndExplicit
             }
             public override string ToString()
             {
-                return $"Rectangle Area{arearectangle}";
+                return $"Rectangle Area{arearectangle}, is";
+            }
+
+            static void Main(string[] args)
+            {
+                /*Circle c = new Circle();
+                c.CalculateArea();
+                */
+                Rectangle r = new Rectangle(5, 6);
+                r.CalculateArea();
+                Console.WriteLine(r);
             }
         }
     }

@@ -21,7 +21,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
 	}
 
 	
-	protected virtual void SaleEquipment()
+	public virtual void SaleEquipment()
 	{
 		double gstAmount = (price * ElectronicsEquipments.gst) / 100;
 		double netAmount = price + gstAmount;
@@ -47,7 +47,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
 		
 	}
 
-	public void SaleEquipment()
+	public new void SaleEquipment()
 	{
 		base.SaleEquipment();
         Console.WriteLine("Requires Equipment");
@@ -78,20 +78,20 @@ class WashingMachine: ElectronicsEquipments
 	}
 	protected new void SaleEquipment()
 	{
-		SaleEquipment();
+		//SaleEquipment();
 	}
 }
 public class ElectronicShowroom
     {
         static void Main(string[] args)
         {
-			Console.WriteLine("Enter price of equipment: ");
+			/*Console.WriteLine("Enter price of equipment: ");
 			int price = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter name of elcetronic gadget: ");
 			string name = "Oven";
-            Console.WriteLine("Name is: "+name);
+            Console.WriteLine("Name is: "+name);*/
 			ElectronicsEquipments ee = new ElectronicsEquipments(5000000, "Oven");
-		
+			ee.SaleEquipment();
             Console.WriteLine(ee);
 		
         }

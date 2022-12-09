@@ -51,6 +51,7 @@ public class DynamicPolymorphism
             Payment p = new Payment();
             double price = p.Pay(2, 20000f);
             Console.WriteLine("Payment of Rs: "+price);
+            Console.WriteLine(p);
         }
     }
 }

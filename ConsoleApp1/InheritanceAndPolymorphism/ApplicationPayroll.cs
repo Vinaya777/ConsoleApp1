@@ -8,9 +8,9 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
 {
     public class ApplicationPayroll
     {
-        protected int grossincome;
-        protected int grossdeduction,netpayment;
-        protected String name;
+        public int grossincome;
+        public int grossdeduction,netpayment;
+        public String name;
 
         public ApplicationPayroll(int income,int gross,int netpayment)
         {
