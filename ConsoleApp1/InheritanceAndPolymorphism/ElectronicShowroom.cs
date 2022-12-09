@@ -47,9 +47,9 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
 		
 	}
 
-	public new void SaleEquipment()
+	public void SaleEquipment()
 	{
-		SaleEquipment();
+		base.SaleEquipment();
         Console.WriteLine("Requires Equipment");
 	}
 }
@@ -58,7 +58,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
 {
 		double p;
 		string n;
-	public Refrigerator(double p, String n):base(7,"xyz")
+	public Refrigerator(double p,String n):base(7,"xyz")
 	{
 		
 	}
