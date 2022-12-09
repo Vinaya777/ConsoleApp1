@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ADCA91D-941B-4AD8-9965-F9FEA6430958}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ConsoleApp1.InheritanceAndPolymorphism.ElectronicShowroom</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2DArray\2Darrayexample.cs" />
+    <Compile Include="2DArray\Addition.cs" />
+    <Compile Include="2DArray\FindRow.cs" />
+    <Compile Include="2DArray\MinInEachRow.cs" />
+    <Compile Include="2DArray\SumRow.cs" />
+    <Compile Include="Array\ArrayExample.cs" />
+    <Compile Include="Array\CopyArray.cs" />
+    <Compile Include="Array\Demo.cs" />
+    <Compile Include="Array\JaggedArray.cs" />
+    <Compile Include="Array\ProgramExample.cs" />
+    <Compile Include="Array\ProgramExampleClass4.cs" />
+    <Compile Include="ConstructorAndMethod\Access.cs" />
+    <Compile Include="ConstructorAndMethod\Employe.cs" />
+    <Compile Include="ConstructorAndMethod\EmployeeAccount.cs" />
+    <Compile Include="ConstructorAndMethod\PlaceholderStudyExample.cs" />
+    <Compile Include="ConstructorAndMethod\Sample.cs" />
+    <Compile Include="ConstructorAndMethod\Var.cs" />
+    <Compile Include="ConstructorAndMethod\Vehical.cs" />
+    <Compile Include="Demo.cs" />
+    <Compile Include="DynamicAndExplicit\Shape.cs" />
+    <Compile Include="DynamicAndExplicit\StackExample.cs" />
+    <Compile Include="InheritanceAndPolymorphism\ApplicationPayroll.cs" />
+    <Compile Include="InheritanceAndPolymorphism\DynamicPolymorphism.cs" />
+    <Compile Include="InheritanceAndPolymorphism\ElectronicShowroom.cs" />
+    <Compile Include="InheritanceAndPolymorphism\PaymentMode.cs" />
+    <Compile Include="InheritanceAndPolymorphism\University.cs" />
+    <Compile Include="InheritanceAndPolymorphism\UniversityColleageEX.cs" />
+    <Compile Include="ObjectAndClasses\Author.cs" />
+    <Compile Include="ObjectAndClasses\Book.cs" />
+    <Compile Include="ObjectAndClasses\D.cs" />
+    <Compile Include="ObjectAndClasses\Demo.cs" />
+    <Compile Include="ObjectAndClasses\Department.cs" />
+    <Compile Include="ObjectAndClasses\Employe.cs" />
+    <Compile Include="ObjectAndClasses\ExmpleForStudy.cs" />
+    <Compile Include="ObjectAndClasses\Sample.cs" />
+    <Compile Include="ObjectAndClasses\Student.cs" />
+    <Compile Include="ObjectAndClasses\Test.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
