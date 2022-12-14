@@ -24,7 +24,7 @@ namespace ConsoleApp1.DynamicAndExplicit
             }
             public override string ToString()
             {
-                return $"area of circle is {area}";
+                return $"area of circle is {area} ";
             }
         }
         public class Rectangle : Shape
@@ -44,17 +44,18 @@ namespace ConsoleApp1.DynamicAndExplicit
             }
             public override string ToString()
             {
-                return $"Rectangle Area{arearectangle}, is";
+                return $"Rectangle Area{arearectangle}, is not abstract class";
             }
 
             static void Main(string[] args)
             {
-                /*Circle c = new Circle();
+                Circle c = new Circle(5);
                 c.CalculateArea();
-                */
+                Console.WriteLine(c);
                 Rectangle r = new Rectangle(5, 6);
                 r.CalculateArea();
                 Console.WriteLine(r);
+                Console.ReadLine();
             }
         }
     }

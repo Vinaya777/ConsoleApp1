@@ -18,6 +18,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
             Console.WriteLine(op);
             PayrollAccounting pa = new PayrollAccounting(25000, 50000, 200000, 30000, 400000, 7000);
             Console.WriteLine(pa);
+            Console.ReadLine();
         }
     }
 }

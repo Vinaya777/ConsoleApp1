@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.DynamicAndExplicit.Shape.Rectangle</StartupObject>
+    <StartupObject>ConsoleApp1._2DArray.SumOfDigit1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,17 +47,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2DArray\2Darrayexample.cs" />
-    <Compile Include="2DArray\Addition.cs" />
+    <Compile Include="2DArray\ArrayDisplay.cs" />
     <Compile Include="2DArray\FindRow.cs" />
     <Compile Include="2DArray\MinInEachRow.cs" />
+    <Compile Include="2DArray\SumOfDigit1.cs" />
     <Compile Include="2DArray\SumRow.cs" />
     <Compile Include="Array\ArrayExample.cs" />
     <Compile Include="Array\CopyArray.cs" />
     <Compile Include="Array\Demo.cs" />
+    <Compile Include="Array\Employee.cs" />
     <Compile Include="Array\JaggedArray.cs" />
+    <Compile Include="Array\JaggedArrayEx1.cs" />
+    <Compile Include="Array\NewEmployee.cs" />
+    <Compile Include="Array\NewCreationTypeArray.cs" />
     <Compile Include="Array\ProgramExample.cs" />
     <Compile Include="Array\ProgramExampleClass4.cs" />
+    <Compile Include="Array\ReverseNumberInArray.cs" />
+    <Compile Include="Array\SumOfDigit.cs" />
     <Compile Include="ConstructorAndMethod\Access.cs" />
+    <Compile Include="ConstructorAndMethod\Company.cs" />
     <Compile Include="ConstructorAndMethod\Employe.cs" />
     <Compile Include="ConstructorAndMethod\EmployeeAccount.cs" />
     <Compile Include="ConstructorAndMethod\PlaceholderStudyExample.cs" />
@@ -65,15 +73,47 @@
     <Compile Include="ConstructorAndMethod\Var.cs" />
     <Compile Include="ConstructorAndMethod\Vehical.cs" />
     <Compile Include="Demo.cs" />
+    <Compile Include="DynamicAndExplicit\IPayable.cs" />
+    <Compile Include="DynamicAndExplicit\IPrintablee.cs" />
+    <Compile Include="DynamicAndExplicit\Program.cs" />
     <Compile Include="DynamicAndExplicit\Shape.cs" />
     <Compile Include="DynamicAndExplicit\ShapeAccess.cs" />
     <Compile Include="DynamicAndExplicit\StackExample.cs" />
+    <Compile Include="DynamicAndExplicit\Transaction.cs" />
+    <Compile Include="ExtensionAndPartialMethod\BookMyShowCom.cs" />
+    <Compile Include="ExtensionAndPartialMethod\Calculation.cs" />
+    <Compile Include="ExtensionAndPartialMethod\Calculator.cs" />
+    <Compile Include="ExtensionAndPartialMethod\CalculatorTx.cs" />
+    <Compile Include="ExtensionAndPartialMethod\ExtensionClass.cs" />
+    <Compile Include="ExtensionAndPartialMethod\Login.cs" />
+    <Compile Include="ExtensionAndPartialMethod\Program.cs" />
+    <Compile Include="ExtensionAndPartialMethod\Ticket.cs" />
     <Compile Include="InheritanceAndPolymorphism\ApplicationPayroll.cs" />
     <Compile Include="InheritanceAndPolymorphism\DynamicPolymorphism.cs" />
     <Compile Include="InheritanceAndPolymorphism\ElectronicShowroom.cs" />
+    <Compile Include="InheritanceAndPolymorphism\IPrintabale1.cs" />
+    <Compile Include="InheritanceAndPolymorphism\Libaray.cs" />
     <Compile Include="InheritanceAndPolymorphism\PaymentMode.cs" />
     <Compile Include="InheritanceAndPolymorphism\University.cs" />
     <Compile Include="InheritanceAndPolymorphism\UniversityColleageEX.cs" />
+    <Compile Include="Loop\ArmstrongNumber.cs" />
+    <Compile Include="Loop\CountNumber.cs" />
+    <Compile Include="Loop\EvenNumber.cs" />
+    <Compile Include="Loop\EvenOdd.cs" />
+    <Compile Include="Loop\NestedLoop.cs" />
+    <Compile Include="Loop\PrimeNumber.cs" />
+    <Compile Include="Loop\SumOfFactorial.cs" />
+    <Compile Include="Loop\Swap.cs" />
+    <Compile Include="Loop\TableOfGivenNumber.cs" />
+    <Compile Include="Loop\UsingWhileloop1to20.cs" />
+    <Compile Include="Mcq\ClassAbc.cs" />
+    <Compile Include="Mcq\Code.cs" />
+    <Compile Include="Mcq\Display.cs" />
+    <Compile Include="Mcq\Emp.cs" />
+    <Compile Include="Mcq\Multiplication.cs" />
+    <Compile Include="Mcq\PrimeNumber.cs" />
+    <Compile Include="Mcq\Program.cs" />
+    <Compile Include="Mcq\Sample.cs" />
     <Compile Include="ObjectAndClasses\Author.cs" />
     <Compile Include="ObjectAndClasses\Book.cs" />
     <Compile Include="ObjectAndClasses\D.cs" />
@@ -86,6 +126,12 @@
     <Compile Include="ObjectAndClasses\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringBulider\Demo.cs" />
+    <Compile Include="StringProgram\ExampleString.cs" />
+    <Compile Include="StringProgram\ExampleString1.cs" />
+    <Compile Include="StringProgram\ExampleString2.cs" />
+    <Compile Include="StringProgram\ProgramEquals.cs" />
+    <Compile Include="SumOfDigitcs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

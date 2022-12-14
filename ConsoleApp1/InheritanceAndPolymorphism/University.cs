@@ -11,7 +11,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
        protected String course;
      protected   String name;
 
-       public University(String course, String name)
+       public  University(String course, String name)
         {
             this.course = course;
             this.name = name;

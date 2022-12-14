@@ -14,7 +14,9 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
             University un = new University("IT","Manisha");
             un.ShowUniversityDetails();
             
+             
             Console.WriteLine(un);
+            Console.ReadLine();
             
         }
 

@@ -85,14 +85,15 @@ public class ElectronicShowroom
     {
         static void Main(string[] args)
         {
-			/*Console.WriteLine("Enter price of equipment: ");
+			Console.WriteLine("Enter price of equipment: ");
 			int price = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter name of elcetronic gadget: ");
 			string name = "Oven";
-            Console.WriteLine("Name is: "+name);*/
+            Console.WriteLine("Name is: "+name);
 			ElectronicsEquipments ee = new ElectronicsEquipments(5000000, "Oven");
 			ee.SaleEquipment();
             Console.WriteLine(ee);
+			Console.ReadLine();
 		
         }
     }
