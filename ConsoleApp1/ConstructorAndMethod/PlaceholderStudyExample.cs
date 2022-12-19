@@ -20,7 +20,7 @@ namespace ConsoleApp1.ConstructorAndMethod
 
             // $  -- >string interpolation
             Console.WriteLine($"company name is {name} and year {year}");
-
+            Console.ReadLine();
         }
     }
 }
