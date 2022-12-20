@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1._2DArray
+namespace ConsoleApp1._2DA
 {
     class MinInEachRow
     {

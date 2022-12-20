@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Array
+namespace ConsoleApp1.Dec20
 {
     class ProgramExampleClass4
     {

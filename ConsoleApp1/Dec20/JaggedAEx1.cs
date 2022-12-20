@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Array
+namespace ConsoleApp1.Dec20
 {
-    class JaggedArrayEx1
+    class JaggedAEx1
     {
         static void Main(string[] args)
         {

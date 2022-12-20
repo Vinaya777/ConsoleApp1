@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.ObjectAndClasses.BookDiscount</StartupObject>
+    <StartupObject>ConsoleApp1.DemoA.NewFolder1.PairElementsUserInput</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,26 +57,28 @@
     <Compile Include="15thdec\Maxex\Emp.cs" />
     <Compile Include="15thdec\Maxex\HardwareShop.cs" />
     <Compile Include="15thdec\Maxex\Shopping.cs" />
-    <Compile Include="2DArray\2Darrayexample.cs" />
-    <Compile Include="2DArray\ArrayDisplay.cs" />
-    <Compile Include="2DArray\Program.cs" />
-    <Compile Include="2DArray\AverageMarks.cs" />
-    <Compile Include="2DArray\FindRow.cs" />
-    <Compile Include="2DArray\MinInEachRow.cs" />
-    <Compile Include="2DArray\SumOfDigit1.cs" />
-    <Compile Include="2DArray\SumRow.cs" />
-    <Compile Include="Array\ArrayExample.cs" />
-    <Compile Include="Array\CopyArray.cs" />
-    <Compile Include="Array\Demo.cs" />
-    <Compile Include="Array\Employee.cs" />
-    <Compile Include="Array\JaggedArray.cs" />
-    <Compile Include="Array\JaggedArrayEx1.cs" />
-    <Compile Include="Array\NewEmployee.cs" />
-    <Compile Include="Array\NewCreationTypeArray.cs" />
-    <Compile Include="Array\ProgramExample.cs" />
-    <Compile Include="Array\ProgramExampleClass4.cs" />
-    <Compile Include="Array\ReverseNumberInArray.cs" />
-    <Compile Include="Array\SumOfDigit.cs" />
+    <Compile Include="2DA\2Darrayexample.cs" />
+    <Compile Include="2DA\ADisplay.cs" />
+    <Compile Include="2DA\MaxInEachRow.cs" />
+    <Compile Include="2DA\Program.cs" />
+    <Compile Include="2DA\AverageMarks.cs" />
+    <Compile Include="2DA\FindRow.cs" />
+    <Compile Include="2DA\MinInEachRow.cs" />
+    <Compile Include="2DA\SumOfDigit1.cs" />
+    <Compile Include="2DA\SumRow.cs" />
+    <Compile Include="Dec20\AExample.cs" />
+    <Compile Include="Dec20\CopyArray.cs" />
+    <Compile Include="Dec20\Demo.cs" />
+    <Compile Include="Dec20\Employee.cs" />
+    <Compile Include="Dec20\FibonacciSeries.cs" />
+    <Compile Include="Dec20\JaggedA.cs" />
+    <Compile Include="Dec20\JaggedAEx1.cs" />
+    <Compile Include="Dec20\NewEmployee.cs" />
+    <Compile Include="Dec20\NewCreationTypeA.cs" />
+    <Compile Include="Dec20\ProgramExample.cs" />
+    <Compile Include="Dec20\ProgramExampleClass4.cs" />
+    <Compile Include="Dec20\ReverseNumberInA.cs" />
+    <Compile Include="Dec20\SumOfDigit.cs" />
     <Compile Include="ConstructorAndMethod\Access.cs" />
     <Compile Include="ConstructorAndMethod\Company.cs" />
     <Compile Include="ConstructorAndMethod\Employe.cs" />
@@ -86,9 +88,14 @@
     <Compile Include="ConstructorAndMethod\Var.cs" />
     <Compile Include="ConstructorAndMethod\Vehical.cs" />
     <Compile Include="Demo.cs" />
+    <Compile Include="DemoA\AnagramExample.cs" />
     <Compile Include="DemoA\AProgram.cs" />
+    <Compile Include="DemoA\CommonEltBetweenTwoArray.cs" />
     <Compile Include="DemoA\NewFolder1\Employe.cs" />
     <Compile Include="DemoA\NewFolder1\Employe1.cs" />
+    <Compile Include="DemoA\NewFolder1\PairElementsUserInput.cs" />
+    <Compile Include="DemoA\PairElement.cs" />
+    <Compile Include="DemoA\SwapZero.cs" />
     <Compile Include="DemoQ\ProgramEx.cs" />
     <Compile Include="DynamicAndExplicit\IPayable.cs" />
     <Compile Include="DynamicAndExplicit\IPrintablee.cs" />

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Array
+namespace ConsoleApp1.Dec20
 {
-    class ReverseNumberInArray
+    class ReverseNumberInA
     {
         public int[] ReverseNum(int[] a)
         {
@@ -25,9 +25,9 @@ namespace ConsoleApp1.Array
             int[] arr = { 6, 3, 12, 24, 48 };
 
             Console.WriteLine(string.Join(" ", arr));
-            ReverseNumberInArray rn = new ReverseNumberInArray();
-            int[] mrn = rn.ReverseNum(arr);
-            Console.WriteLine(string.Join(" ", mrn));
+            /*ReverseNumberInA = new ReverseNumberInA();*/
+           // int[] mrn = rn.ReverseNum(arr);
+           // Console.WriteLine(string.Join(" ", mrn));
             Console.ReadLine();
         }
     }
