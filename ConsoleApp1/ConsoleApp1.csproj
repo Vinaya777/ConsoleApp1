@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.DemoA.NewFolder1.PairElementsUserInput</StartupObject>
+    <StartupObject>ConsoleApp1._15thdec.Company.AccessCompany</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,13 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="15thdec\Bank Projrct\Account.cs" />
+    <Compile Include="15thdec\Bank Projrct\Bank.cs" />
+    <Compile Include="15thdec\Bank Projrct\Customer.cs" />
+    <Compile Include="15thdec\Book\AccessBook.cs" />
+    <Compile Include="15thdec\Book\Book.cs" />
+    <Compile Include="15thdec\Book\BookLibrary.cs" />
+    <Compile Include="15thdec\Company\AccessCompany.cs" />
+    <Compile Include="15thdec\Company\Department.cs" />
+    <Compile Include="15thdec\Company\Employe.cs" />
     <Compile Include="15thdec\Excep\Program.cs" />
     <Compile Include="15thdec\Excep\Program1.cs" />
     <Compile Include="15thdec\Excep\Stud.cs" />
     <Compile Include="15thdec\Excep\StudentMarks.cs" />
+    <Compile Include="15thdec\Hsh\ExampleHS.cs" />
+    <Compile Include="15thdec\Hsh\HshfromArr.cs" />
+    <Compile Include="15thdec\List\Bank.cs" />
+    <Compile Include="15thdec\List\CustomerDetails.cs" />
     <Compile Include="15thdec\List\Emp.cs" />
     <Compile Include="15thdec\List\IProduct.cs" />
     <Compile Include="15thdec\List\Product.cs" />
+    <Compile Include="15thdec\List\Student.cs" />
     <Compile Include="15thdec\Maxex\Colleage.cs" />
     <Compile Include="15thdec\Maxex\Emp.cs" />
     <Compile Include="15thdec\Maxex\HardwareShop.cs" />
@@ -87,6 +101,9 @@
     <Compile Include="ConstructorAndMethod\Sample.cs" />
     <Compile Include="ConstructorAndMethod\Var.cs" />
     <Compile Include="ConstructorAndMethod\Vehical.cs" />
+    <Compile Include="Delegates\AcessOperationsMultitasking.cs" />
+    <Compile Include="Delegates\Operation.cs" />
+    <Compile Include="Delegates\Student.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="DemoA\AnagramExample.cs" />
     <Compile Include="DemoA\AProgram.cs" />
@@ -94,6 +111,7 @@
     <Compile Include="DemoA\NewFolder1\Employe.cs" />
     <Compile Include="DemoA\NewFolder1\Employe1.cs" />
     <Compile Include="DemoA\NewFolder1\PairElementsUserInput.cs" />
+    <Compile Include="DemoA\NewFolder1\Program1.cs" />
     <Compile Include="DemoA\PairElement.cs" />
     <Compile Include="DemoA\SwapZero.cs" />
     <Compile Include="DemoQ\ProgramEx.cs" />
@@ -157,6 +175,7 @@
     <Compile Include="DemoQ\Student.cs" />
     <Compile Include="Msaex\Understandingcs.cs" />
     <Compile Include="Msaex\Understood.cs" />
+    <Compile Include="StringBulider\AcessData.cs" />
     <Compile Include="StringBulider\Demo.cs" />
     <Compile Include="StringEx\OccOfEachChar.cs" />
     <Compile Include="StringEx\Toggle.cs" />
@@ -169,6 +188,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="15thdec\Shop\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
