@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1.InheritanceAndPolymorphism
 {
 
-    class Payment
+   class Payment
     {
         public float Pay(int qty, float price)
         {
@@ -16,7 +16,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
     }
     class NetBanking: Payment
     {
-        public float Pay(int qty,float price)
+        public float Payment(int qty,float price)
         {
             Console.WriteLine("Do transaction using net banking");
             return qty * price ;
@@ -36,7 +36,7 @@ namespace ConsoleApp1.InheritanceAndPolymorphism
     class CreditCard : Payment
     {
 
-    public float Pay(int qty, float price)
+    public float Payment(int qty, float price)
     {
         Console.WriteLine( "Do transaction using credit card");
         return qty *   price;

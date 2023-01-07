@@ -9,7 +9,7 @@ Implement the IPrintable interface in student class, employee class, circle clas
 */
 namespace ConsoleApp1.DynamicAndExplicit
 {
-    interface IPrintablee
+    /*interface IPrintablee
     {
         void PrintLine();
 
@@ -41,6 +41,6 @@ namespace ConsoleApp1.DynamicAndExplicit
         {
             
         }
-    }
+    }*/
    
 }

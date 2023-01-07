@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1._15thdec.Company.AccessCompany</StartupObject>
+    <StartupObject>ConsoleApp1.DemoSr.VideoAssignment.JoinTwoArrayList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,7 @@
     <Compile Include="15thdec\Maxex\Shopping.cs" />
     <Compile Include="2DA\2Darrayexample.cs" />
     <Compile Include="2DA\ADisplay.cs" />
+    <Compile Include="2DA\For2D.cs" />
     <Compile Include="2DA\MaxInEachRow.cs" />
     <Compile Include="2DA\Program.cs" />
     <Compile Include="2DA\AverageMarks.cs" />
@@ -80,6 +81,13 @@
     <Compile Include="2DA\MinInEachRow.cs" />
     <Compile Include="2DA\SumOfDigit1.cs" />
     <Compile Include="2DA\SumRow.cs" />
+    <Compile Include="AssStr\CountOccCharacter.cs" />
+    <Compile Include="AssStr\FunctionString.cs" />
+    <Compile Include="AssStr\OccOfCharInString.cs" />
+    <Compile Include="BANK\AccessBANK.cs" />
+    <Compile Include="BANK\Account.cs" />
+    <Compile Include="BANK\Data.cs" />
+    <Compile Include="BANK\enumProgram.cs" />
     <Compile Include="Dec20\AExample.cs" />
     <Compile Include="Dec20\CopyArray.cs" />
     <Compile Include="Dec20\Demo.cs" />
@@ -102,19 +110,41 @@
     <Compile Include="ConstructorAndMethod\Var.cs" />
     <Compile Include="ConstructorAndMethod\Vehical.cs" />
     <Compile Include="Delegates\AcessOperationsMultitasking.cs" />
+    <Compile Include="Delegates\BankAc.cs" />
     <Compile Include="Delegates\Operation.cs" />
     <Compile Include="Delegates\Student.cs" />
+    <Compile Include="Delegates\Variables.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="DemoA\AnagramExample.cs" />
     <Compile Include="DemoA\AProgram.cs" />
     <Compile Include="DemoA\CommonEltBetweenTwoArray.cs" />
+    <Compile Include="DemoA\Max.cs" />
+    <Compile Include="DemoA\NewFolder1\ADTNumber.cs" />
+    <Compile Include="DemoA\NewFolder1\DiffColArrayJD.cs" />
     <Compile Include="DemoA\NewFolder1\Employe.cs" />
     <Compile Include="DemoA\NewFolder1\Employe1.cs" />
+    <Compile Include="DemoA\NewFolder1\JaDArr.cs" />
+    <Compile Include="DemoA\NewFolder1\NoDivisibleBy3.cs" />
     <Compile Include="DemoA\NewFolder1\PairElementsUserInput.cs" />
     <Compile Include="DemoA\NewFolder1\Program1.cs" />
+    <Compile Include="DemoA\NewFolder1\ShowArr.cs" />
+    <Compile Include="DemoA\NewFolder1\Skipp.cs" />
+    <Compile Include="DemoA\NewFolder1\Toggle.cs" />
     <Compile Include="DemoA\PairElement.cs" />
     <Compile Include="DemoA\SwapZero.cs" />
     <Compile Include="DemoQ\ProgramEx.cs" />
+    <Compile Include="DemoSr\ExampleStr.cs" />
+    <Compile Include="DemoSr\VideoAssignment\Arr1.cs" />
+    <Compile Include="DemoSr\VideoAssignment\Arr2.cs" />
+    <Compile Include="DemoSr\VideoAssignment\ArrayList.cs" />
+    <Compile Include="DemoSr\VideoAssignment\Convert.cs" />
+    <Compile Include="DemoSr\VideoAssignment\Employee.cs" />
+    <Compile Include="DemoSr\VideoAssignment\JoinTwoArrayList.cs" />
+    <Compile Include="DemoSr\VideoAssignment\ListStudent.cs" />
+    <Compile Include="DemoSr\VideoAssignment\PrintReverseList.cs" />
+    <Compile Include="DemoSr\VideoAssignment\ReplaceSecondElement.cs" />
+    <Compile Include="DemoSr\VideoAssignment\SListcontainsString.cs" />
+    <Compile Include="DemoSr\VideoAssignment\SwapTwoElt.cs" />
     <Compile Include="DynamicAndExplicit\IPayable.cs" />
     <Compile Include="DynamicAndExplicit\IPrintablee.cs" />
     <Compile Include="DynamicAndExplicit\Program.cs" />
@@ -139,13 +169,16 @@
     <Compile Include="InheritanceAndPolymorphism\University.cs" />
     <Compile Include="InheritanceAndPolymorphism\UniversityColleageEX.cs" />
     <Compile Include="Loop\ArmstrongNumber.cs" />
+    <Compile Include="Loop\CommissionOnSale.cs" />
     <Compile Include="Loop\CountNumber.cs" />
+    <Compile Include="Loop\DecimalToBinary.cs" />
     <Compile Include="Loop\EvenNumber.cs" />
     <Compile Include="Loop\EvenOdd.cs" />
     <Compile Include="Loop\NestedLoop.cs" />
     <Compile Include="Loop\PrimeNumber.cs" />
     <Compile Include="Loop\SumOfFactorial.cs" />
     <Compile Include="Loop\Swap.cs" />
+    <Compile Include="Loop\SwitchEx.cs" />
     <Compile Include="Loop\TableOfGivenNumber.cs" />
     <Compile Include="Loop\UsingWhileloop1to20.cs" />
     <Compile Include="Mcq\ClassAbc.cs" />
@@ -155,19 +188,16 @@
     <Compile Include="Mcq\Multiplication.cs" />
     <Compile Include="Mcq\Pattern.cs" />
     <Compile Include="Mcq\PrimeNumber.cs" />
+    <Compile Include="Mcq\PRNumber.cs" />
     <Compile Include="Mcq\Program.cs" />
     <Compile Include="Mcq\Sample.cs" />
-    <Compile Include="ObjectAndClasses\Author.cs" />
-    <Compile Include="ObjectAndClasses\Book.cs" />
-    <Compile Include="ObjectAndClasses\BookDiscount.cs" />
-    <Compile Include="ObjectAndClasses\D.cs" />
-    <Compile Include="ObjectAndClasses\Demo.cs" />
-    <Compile Include="ObjectAndClasses\Department.cs" />
-    <Compile Include="ObjectAndClasses\Employe.cs" />
-    <Compile Include="ObjectAndClasses\ExmpleForStudy.cs" />
-    <Compile Include="ObjectAndClasses\Sample.cs" />
-    <Compile Include="ObjectAndClasses\Student.cs" />
-    <Compile Include="ObjectAndClasses\Test.cs" />
+    <Compile Include="NewItemNon-gen\ArrayListUniqueElt.cs" />
+    <Compile Include="NewItemNon-gen\Class1.cs" />
+    <Compile Include="NewItemNon-gen\Class2.cs" />
+    <Compile Include="NewItemNon-gen\Class3.cs" />
+    <Compile Include="NewItemNon-gen\Class4.cs" />
+    <Compile Include="NewItemNon-gen\StudyProgramcs.cs" />
+    <Compile Include="NewItemNon-gen\VideoAssignmentALrrist\SearchEltFromArrList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DemoQ\Access.cs" />
@@ -175,18 +205,7 @@
     <Compile Include="DemoQ\Student.cs" />
     <Compile Include="Msaex\Understandingcs.cs" />
     <Compile Include="Msaex\Understood.cs" />
-    <Compile Include="StringBulider\AcessData.cs" />
-    <Compile Include="StringBulider\Demo.cs" />
-    <Compile Include="StringEx\OccOfEachChar.cs" />
-    <Compile Include="StringEx\Toggle.cs" />
-    <Compile Include="StringProgram\ExampleString.cs" />
-    <Compile Include="StringProgram\ExampleString1.cs" />
-    <Compile Include="StringProgram\ExampleString2.cs" />
-    <Compile Include="StringProgram\ProgramEquals.cs" />
     <Compile Include="SumOfDigitcs.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="15thdec\Shop\" />
