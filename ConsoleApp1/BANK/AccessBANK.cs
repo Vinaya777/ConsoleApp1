@@ -38,7 +38,7 @@ namespace ConsoleApp1.BANK
                 n = int.Parse(Console.ReadLine());
                 Console.Clear();
 
-                switch (n)
+               /* switch (n)
                 {
                     case 1:
                         {
@@ -89,7 +89,7 @@ namespace ConsoleApp1.BANK
                             break;
                         }
                 }
-
+*/
 
             } while (n != 7);
         }

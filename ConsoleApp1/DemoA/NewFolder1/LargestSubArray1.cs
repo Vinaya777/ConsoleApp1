@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.BANK
+namespace ConsoleApp1.DemoA.NewFolder1
 {
-    public class Account 
+    class LargestSubArray1
     {
-        private int accno;
+        static void Main(string[] args)
+        {
+
+        }
     }
 }

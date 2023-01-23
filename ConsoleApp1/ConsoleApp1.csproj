@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.DemoSr.VideoAssignment.JoinTwoArrayList</StartupObject>
+    <StartupObject>ConsoleApp1._15thdec.List.StringISPalindrome</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,9 +63,12 @@
     <Compile Include="15thdec\Hsh\HshfromArr.cs" />
     <Compile Include="15thdec\List\Bank.cs" />
     <Compile Include="15thdec\List\CustomerDetails.cs" />
+    <Compile Include="15thdec\List\DuplicateFromList.cs" />
     <Compile Include="15thdec\List\Emp.cs" />
     <Compile Include="15thdec\List\IProduct.cs" />
+    <Compile Include="15thdec\List\PalindromeString.cs" />
     <Compile Include="15thdec\List\Product.cs" />
+    <Compile Include="15thdec\List\StringISPalindrome.cs" />
     <Compile Include="15thdec\List\Student.cs" />
     <Compile Include="15thdec\Maxex\Colleage.cs" />
     <Compile Include="15thdec\Maxex\Emp.cs" />
@@ -120,10 +123,13 @@
     <Compile Include="DemoA\CommonEltBetweenTwoArray.cs" />
     <Compile Include="DemoA\Max.cs" />
     <Compile Include="DemoA\NewFolder1\ADTNumber.cs" />
+    <Compile Include="DemoA\NewFolder1\Co-primeNumberXobin.cs" />
     <Compile Include="DemoA\NewFolder1\DiffColArrayJD.cs" />
     <Compile Include="DemoA\NewFolder1\Employe.cs" />
     <Compile Include="DemoA\NewFolder1\Employe1.cs" />
     <Compile Include="DemoA\NewFolder1\JaDArr.cs" />
+    <Compile Include="DemoA\NewFolder1\LargestSubArray1.cs" />
+    <Compile Include="DemoA\NewFolder1\LargestSubarrayXobin cs.cs" />
     <Compile Include="DemoA\NewFolder1\NoDivisibleBy3.cs" />
     <Compile Include="DemoA\NewFolder1\PairElementsUserInput.cs" />
     <Compile Include="DemoA\NewFolder1\Program1.cs" />
@@ -175,12 +181,16 @@
     <Compile Include="Loop\EvenNumber.cs" />
     <Compile Include="Loop\EvenOdd.cs" />
     <Compile Include="Loop\NestedLoop.cs" />
+    <Compile Include="Loop\Pattern1.cs" />
+    <Compile Include="Loop\Pattern2.cs" />
+    <Compile Include="Loop\Pattern3.cs" />
     <Compile Include="Loop\PrimeNumber.cs" />
     <Compile Include="Loop\SumOfFactorial.cs" />
     <Compile Include="Loop\Swap.cs" />
     <Compile Include="Loop\SwitchEx.cs" />
     <Compile Include="Loop\TableOfGivenNumber.cs" />
     <Compile Include="Loop\UsingWhileloop1to20.cs" />
+    <Compile Include="Mcq\AnagramProgram7thJan.cs" />
     <Compile Include="Mcq\ClassAbc.cs" />
     <Compile Include="Mcq\Code.cs" />
     <Compile Include="Mcq\Display.cs" />
@@ -191,6 +201,7 @@
     <Compile Include="Mcq\PRNumber.cs" />
     <Compile Include="Mcq\Program.cs" />
     <Compile Include="Mcq\Sample.cs" />
+    <Compile Include="Mcq\Solution.cs" />
     <Compile Include="NewItemNon-gen\ArrayListUniqueElt.cs" />
     <Compile Include="NewItemNon-gen\Class1.cs" />
     <Compile Include="NewItemNon-gen\Class2.cs" />
